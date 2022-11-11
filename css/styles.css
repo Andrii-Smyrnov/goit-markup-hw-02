@@ -1,32 +1,7 @@
 
-.body-index {
-    font-family: 'Raleway', sans-serif;
+.body {
+
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
     margin-left: auto;
-}
-
-.body-portfolio {
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    background-color: #FFFFFF;
-
-}
-
-.body-index  {
-    position: relative;
-    width: 1600px;
-    height: 2346px;
-    background: #FFFFFF;
-}
-
-
-
-.body-portfolio {
-    position: relative;
-    width: 1600px;
-    height: 1880px;
-    background: #ffffff;
-    margin: 0 auto;
-
 }
