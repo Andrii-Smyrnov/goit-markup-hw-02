@@ -1,13 +1,16 @@
 
 .body {
     font-family: 'Roboto', sans-serif;
-    background-color: #FFFFFF;
+    background-color: var(--background-color-body);
     margin-left: 0;
+    color: var(--main-text-color);
     
 
 }
 
 :root {
+     --background-color-body: #FFFFFF;
+     --main-text-color: #757575;
      --color-web-logo: #2196F3;
      --color-logo-header: #000000;
      --color-logo-footer: #FFFFFF;
@@ -100,7 +103,6 @@
 
 .address-list-footer {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
