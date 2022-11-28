@@ -28,8 +28,9 @@
      --color-logo-footer: #FFFFFF;
      --color-text-button-hero: #FFFFFF;
      --color-header-menu: #212121;
-     --color-header-menu-hover: #2196F3;
-
+     --color-header-menu-hover-focus: #2196F3;
+     --color-header-mail-hover-focus: #2196F3;
+     
 
  
 
@@ -47,7 +48,11 @@
 /*Logotype WebStudio*/
 
 .header {
-    background-color: var(--background-color-body) ;
+    background-color: var(--background-color-body);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
 
 
 
@@ -82,93 +87,41 @@
     color: var(--color-web-logo);
 }
 
-.header-menu {
-    font-style: medium;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 2%;
-    color: var(--color-header-menu);
-}
 
-.homepage:link,
- { 
-
-   color: var(--color-header-menu);
-
-}
-
-.homepage:hover,
-.homepage:focus {
-    color: var(--color-header-menu-hover);
-}
-
-.homepage:active {
-
-    color: var(--color-header-menu-hover);
-}
-
-.homepage:visited {
-    color: var(--color-header-menu-hover);
-
-}
-
-
-/*
 .homepage:hover,
 .homepage:focus,
 .portfolio-header:hover,
 .portfolio-header:focus,
-.contacts-menu:hover,
-.contacts-menu:focus {
-    color: var(--color-header-menu-hover);
+.contacts-header-menu:hover,
+.contacts-header-menu:focus {
+    color: var(--color-header-menu-hover-focus);
 }
- 
+
+.portfolio-header, 
+.contacts-header-menu,
+.homepage {
+    color: var(--color-header-menu);
+}
+
 .homepage:visited {
-    color: var(--color-header-menu-hover);
+    color: var(--color-header-menu-hover-focus);
 }
 
-.contacts-menu:visited,
-.portfolio-header:visited {
-    color: var(--color-header-hover);
-}*/
-
-
-.header-contacts { 
-
-
-
-
+.header-mail,
+.header-phone {
+    color: var(--main-text-color);
 }
 
+.header-mail:hover,
+.header-mail:focus {
+    color: var(--color-header-mail-hover-focus);
+    text-decoration: underline;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.header-phone:hover,
+.header-phone:focus {
+    color: var(--color-header-mail-hover-focus);
+}
 
 
 /*main-content*/
