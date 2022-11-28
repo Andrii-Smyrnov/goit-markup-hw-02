@@ -8,6 +8,12 @@
 
 }
 
+.a,
+.ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
 :root {
      --background-color-body: #FFFFFF;
      --main-text-color: #757575;
@@ -28,28 +34,8 @@
 
 }
 
-.a {
-    text-decoration: none;
-
-}
-
-.ul {
-    list-style-type: none;
-}
-
-.visually-hidden {
-
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-}
+/*Header*/
+/*Logotype WebStudio*/
 
 .logo-header,.logo-footer:link  {
     font-family: 'Raleway';
@@ -95,6 +81,47 @@
 
 
 
+
+
+
+
+
+.visually-hidden {
+
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
 
 .footer {
     background-color: var(--background-color-footer);
